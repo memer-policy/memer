@@ -1,0 +1,9 @@
+{
+  "camera_keys": [
+    "observation.images.wrist_left",
+    "observation.images.exterior_1_left"
+  ],
+  "view_width": 320,
+  "view_height": 180,
+  "notes": "Canonical stacked RGB layout for Panda / Franka tasks with wrist-left above exterior-1-left."
+}

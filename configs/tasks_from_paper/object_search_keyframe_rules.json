@@ -1,0 +1,13 @@
+{
+  "default_select": "none",
+  "rules": [
+    {
+      "pattern": "^look inside the .* bin$",
+      "select": "last"
+    },
+    {
+      "pattern": "^take the .* from the .* bin and place (it )?in the white bin$",
+      "select": "none"
+    }
+  ]
+}

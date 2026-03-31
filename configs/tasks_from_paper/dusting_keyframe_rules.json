@@ -1,0 +1,29 @@
+{
+  "default_select": "none",
+  "rules": [
+    {
+      "pattern": "^take .* off (bottom|top) shelf$",
+      "select": "last"
+    },
+    {
+      "exact": "pick up duster",
+      "select": "last"
+    },
+    {
+      "pattern": "^dust .* shelf$",
+      "select": "last"
+    },
+    {
+      "exact": "reset duster",
+      "select": "none"
+    },
+    {
+      "exact": "put down duster",
+      "select": "none"
+    },
+    {
+      "pattern": "^place the .* on the .* shelf$",
+      "select": "last"
+    }
+  ]
+}

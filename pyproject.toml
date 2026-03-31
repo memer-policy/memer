@@ -1,0 +1,28 @@
+[project]
+name = "memer-policy"
+version = "0.1.0"
+description = "MemER high-level policy: data conversion, training, and deployment for Qwen-VL finetuning."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.2.6",
+    "Pillow",
+    "lerobot==0.4.4",
+    "tqdm==4.67.3",
+]
+
+[project.optional-dependencies]
+eval = [
+    "numpy",
+    "Pillow",
+    "tqdm",
+    "lerobot==0.4.4",
+    "transformers>=4.57.0",
+    "qwen-vl-utils",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["memer_eval"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,21 @@
+{
+  "default_select": "none",
+  "rules": [
+    {
+      "exact": "pick up the scooper",
+      "select": "none"
+    },
+    {
+      "pattern": "^place a scoop of .* in the .* bowl$",
+      "select": "last"
+    },
+    {
+      "exact": "reset scooper position",
+      "select": "none"
+    },
+    {
+      "exact": "drop the scooper",
+      "select": "none"
+    }
+  ]
+}
